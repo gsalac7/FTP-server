@@ -19,20 +19,20 @@ python serv.py <port number>
 python cli.py <port number>
 ```
 ### How to use:
-To upload a file
+To upload a file:
 ```
 FTP > put <filename>
 ```
 
-To download a file from the server
+To download a file from the server:
 ```
 FTP > get <filename>
 ```
-To list segments in the client directory
+To list segments in the client directory:
 ```
 FTP > lls
 ```
-To list segments in the server directory
+To list segments in the server directory:
 ```
 FTP > ls
 ```
