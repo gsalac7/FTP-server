@@ -1,8 +1,8 @@
-### Assignment 3 FTP Server
+# Assignment 3 FTP Server
 
 ## By: Gabe Salac
 
-# Description:
+### Description:
 -This program implements a simple FTP server written in Python 2.7
 
 -The user will specify the port number to start the initial TCP connection to the server. This connection will be used to send commands to the server. This way the server will know whether the client will download a file, upload a file, send its contents, or quit the connection. Since FTP is an out of band protocol, when sending the file, the sender will generate an ephemeral port and use that port for the transmisison of the files
@@ -11,12 +11,12 @@
 
 - When sending the file from either the client or the server, the sender will send the ephemeral port number to the receiver through the initial TCP connection. WHen sending the data, it will go through the ephemeral port.
 
-# To Execute:
+### To Execute:
 `python serv.py <port number>
 
 `python cli.py <port number>
 
-# How to use:
+### How to use:
 To upload a file
 `FTP > put <filename>
 
