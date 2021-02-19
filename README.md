@@ -1,4 +1,4 @@
-# Assignment 3 FTP Server
+# FTP Server
 
 ## By: Gabe Salac
 
